@@ -11,3 +11,5 @@ wsl --update
 
 #Set the default version
 wsl --set-default-version 2
+
+#Don't forget to enable the option in Windows Updates that additional Microsoft products may also be updated (includes wsl).
