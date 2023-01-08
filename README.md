@@ -1,2 +1,2 @@
-# Windows_Subsystem_for_Linux
+# Windows Subsystem for Linux
 Everything about Windows Subsystem for Linux!
