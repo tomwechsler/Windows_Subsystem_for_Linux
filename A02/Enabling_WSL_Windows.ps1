@@ -9,6 +9,11 @@ Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform,Micros
 #Another install option for Windows Server/Client (this installs wsl with the ubuntu distro)
 wsl --install
 
+#If on the Windows Server the ubuntu installation fails, try:
+Invoke-WebRequest -Uri https://aka.ms/Microsoft.VCLibs.x64.14.00.Desktop.appx -Out Microsoft.VCLibs.x64.14.00.Desktop.appx
+
+Add-AppxPackage .\Microsoft.VCLibs.x64.14.00.Desktop.appx
+
 #Choose the distro
 wsl --list --online
 
