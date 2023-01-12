@@ -17,6 +17,9 @@ wsl --install -d <distro name>
 #After restarting, open PowerShell (or Windows Terminal) with elevated privileges
 wsl --update
 
+#Check status/wsl version
+wsl --status
+
 #Set the default version
 wsl --set-default-version 2
 
