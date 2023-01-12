@@ -6,6 +6,14 @@ Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform
 #All in one also with hyper-v (optional)
 Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform,Microsoft-Windows-Subsystem-Linux,Microsoft-Hyper-V-All
 
+#Another install option (this installs wsl with the ubuntu distro)
+wsl --install
+
+#Choose the distro
+wsl --list --online
+
+wsl --install -d <distro name>
+
 #After restarting, open PowerShell (or Windows Terminal) with elevated privileges
 wsl --update
 
