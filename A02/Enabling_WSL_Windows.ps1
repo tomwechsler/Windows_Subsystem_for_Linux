@@ -17,7 +17,7 @@ Add-AppxPackage .\Microsoft.VCLibs.x64.14.00.Desktop.appx
 #Choose the distro
 wsl --list --online
 
-wsl --install -d <distro name>
+wsl --install -d "distro name"
 
 #After restarting, open PowerShell (or Windows Terminal) with elevated privileges
 wsl --update
