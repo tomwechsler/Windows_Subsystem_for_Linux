@@ -6,7 +6,7 @@ wsl --help
 #List the distribution
 wsl -l
 
-#list the online distributions
+#List the online distributions
 wsl --list --online
 
 #List the distribution with more info
