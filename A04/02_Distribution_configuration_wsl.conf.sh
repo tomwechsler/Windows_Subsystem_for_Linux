@@ -11,7 +11,7 @@ hostname = ubuntu
 #Exit the ubuntu session and type
 wsl --shutdown
 
-#Reopten the ubuntu Windows Terminal profile
+#Reopen the ubuntu Windows Terminal profile
 
 #Delete the wsl.conf file
 sudo rm /etc/wsl.conf
@@ -19,7 +19,7 @@ sudo rm /etc/wsl.conf
 #Exit the ubuntu session and type
 wsl --shutdown
 
-#Reopten the ubuntu Windows Terminal profile
+#Reopen the ubuntu Windows Terminal profile
 
 #If you would configure settings for all distributions use the .wslconfig file:
 https://learn.microsoft.com/en-us/windows/wsl/wsl-config
