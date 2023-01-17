@@ -8,6 +8,8 @@ ps -elf
 
 ps -lfp1
 
+pstree
+
 sleep 1000 &
 
 ps

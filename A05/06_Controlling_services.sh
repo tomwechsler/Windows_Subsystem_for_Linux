@@ -29,7 +29,7 @@ wsl --shutdown
 service ssh status
 
 #To start the service with wsl
-wsl -u root service start ssh
+wsl -u root service ssh start
 
 
 Dont forget a Linux environment in WSL is not the same as a standalone 

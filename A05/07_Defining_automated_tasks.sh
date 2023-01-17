@@ -6,7 +6,7 @@ crontab -e
 #save and close
 
 #Start the service
-sudi service cron start
+sudo service cron start
 
 #Watch the file
 watch cat ~/linux.log
