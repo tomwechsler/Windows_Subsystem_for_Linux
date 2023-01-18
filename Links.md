@@ -19,3 +19,9 @@
 <https://learn.microsoft.com/en-us/windows/wsl/tutorials/gui-apps>
 
 <https://learn.microsoft.com/en-us/windows/wsl/tutorials/linux>
+
+<https://learn.microsoft.com/en-us/windows/wsl/disk-space>
+
+<https://learn.microsoft.com/en-us/windows/wsl/networking>
+
+<https://learn.microsoft.com/en-us/windows/wsl/file-permissions>
