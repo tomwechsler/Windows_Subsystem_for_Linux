@@ -28,7 +28,7 @@ https://learn.microsoft.com/en-us/windows/wsl/wsl-config
 sudo cat /etc/wsl.conf
 <#ADD
 [boot]
-systemd=true
+systemd = true
 #>
 sudo cat /etc/wsl.conf
 
