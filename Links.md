@@ -25,3 +25,5 @@
 <https://learn.microsoft.com/en-us/windows/wsl/networking>
 
 <https://learn.microsoft.com/en-us/windows/wsl/file-permissions>
+
+https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl
