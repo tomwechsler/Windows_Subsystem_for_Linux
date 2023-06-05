@@ -1,6 +1,6 @@
 #Working on ubuntu
 
-#First on windows
+#First on windows (Common Information Model (CIM))
 GET-CimInstance -query "SELECT * from Win32_DiskDrive"
 
 #Mount with wsl
