@@ -1,7 +1,7 @@
 #Working on ubuntu
-service
+systemctl status
 
-service --status-all
+systemctl status sshd
 
 #Change ssh config
 sudo vi /etc/ssh/sshd_config
@@ -11,13 +11,13 @@ sudo vi /etc/ssh/sshd_config
 #Start the service
 sudo ssh-keygen -A
 
-sudo service ssh start
+sudo systemctl start ssh
 
 #To start the service after a wsl reboot
 sudo vi /etc/wsl.conf
 
 [boot]
-command = "service ssh start"
+command = "systemctl start ssh"
 
 #save and exit the file and exit ubuntu
 
@@ -26,10 +26,10 @@ wsl --shutdown
 #Start a new tab with ubuntu
 
 #Check the service
-service ssh status
+systemctl status sshd
 
 #To start the service with wsl
-wsl -u root service ssh start
+wsl -u root systemctl start sshd
 
 
 Dont forget a Linux environment in WSL is not the same as a standalone 
